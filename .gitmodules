@@ -16,3 +16,9 @@
 [submodule "vendor/feathers"]
 	path = vendor/feathers
 	url = git://github.com/joshtynjala/feathers.git
+[submodule "vendor/dragonBones"]
+	path = vendor/dragonBones
+	url = git://github.com/DragonBones/SkeletonAnimationLibrary.git
+[submodule "vendor/eaze"]
+	path = vendor/eaze
+	url = git://github.com/bbeaumont/eaze-tween.git

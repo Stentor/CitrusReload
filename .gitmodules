@@ -13,3 +13,6 @@
 [submodule "vendor/AwayPhysics"]
 	path = vendor/AwayPhysics
 	url = git://github.com/away3d/awayphysics-core-fp11.git
+[submodule "vendor/feathers"]
+	path = vendor/feathers
+	url = git://github.com/joshtynjala/feathers.git

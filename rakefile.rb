@@ -36,6 +36,9 @@ compc "bin/CitrusReload.swc" do |t|
   t.source_path << 'vendor/Box2D/Source'
   t.source_path << 'vendor/Signal/src'
   t.source_path << 'vendor/Starling/starling/src'
+  t.source_path << 'vendor/feathers/source'
+  t.source_path << 'vendor/dragonBones/src'
+  t.source_path << 'vendor/eaze/src'
   
   t.include_sources << 'extra'
   t.include_sources << 'vendor/Away3D/src'
@@ -43,10 +46,13 @@ compc "bin/CitrusReload.swc" do |t|
   t.include_sources << 'vendor/Box2D/Source'
   t.include_sources << 'vendor/Signal/src'
   t.include_sources << 'vendor/Starling/starling/src/starling'
+  t.include_sources << 'vendor/feathers/source'
+  t.include_sources << 'vendor/dragonBones/src'
+  t.include_sources << 'vendor/eaze/src'
  
   
   
-  t.include_libraries << 'vendor/Nape/lib/release_nape.swc'
+  t.include_libraries << 'vendor/Nape/lib/nape-release.swc'
   t.include_libraries << 'vendor/AwayPhysics/lib'
   
   t.warnings = false
@@ -69,8 +75,11 @@ asdoc 'doc' do |t|
   t.source_path << 'vendor/Box2D/Source'
   t.source_path << 'vendor/Signal/src'
   t.source_path << 'vendor/Starling/starling/src'
+  t.source_path << 'vendor/feathers/source'
+  t.source_path << 'vendor/dragonBones/src'
+  t.source_path << 'vendor/eaze/src'
   t.source_path << 'extra'
-  t.library_path << 'vendor/Nape/lib/release_nape.swc'
+  t.library_path << 'vendor/Nape/lib/nape-release.swc'
   t.library_path << 'vendor/AwayPhysics/lib'
 end
 desc "Generate documentation at doc"
